@@ -1,0 +1,88 @@
+mk dir empire rebellion
+  221  mkdir empire rebellion
+  222  rm -rf empire
+  223  rm -rf rebellion
+  224  cd star_wars
+  225  mkdir empire rebellion
+  226  cd empire
+  227  touch darth_vader.txt
+  228  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  229  pwd
+  230  echo "...heavy breathing..." >> darth_vader.txt
+  231  ls
+  232  cd ..
+  233  ls
+  234  cd empire
+  235  touch emperor_palpatine.txt
+  236  ls
+  237  mkdir death_star
+  238  ls
+  239  mv darth_vader.txt death_star
+  240  cd ..
+  241  git status
+  242  git add .
+  243  git commit -m "Finished hw"
+  244  git push origin main
+  245  ls
+  246  cd star_wars/rebellion
+  247  touch princess_leia.txt << echo "Help me Obi-Wan...You're my only hope." \n\nls\ncd ..\nclear
+  248  touch princess_leia.txt && echo "Help me Obi-Wan...You're my only hope." >> princess_leia.txt
+  249  ls
+  250  touch obi_wan.txt
+  251  touch luke_skywalker.txt
+  252  mkdir millemium_falcon
+  253  cd millemium_falcon
+  254  touch han_solo.txt chewbacca.txt
+  255  cd ..
+  256  ls
+  257  mv luke_skywalker.txt millemium_falcon && mv obi_wan.txt millemium_falcon && mv princess_leia.txt millemium_falcon
+  258  undo
+  259  cd..
+  260  sls
+  261  ls
+  262  cd ..
+  263  ls
+  264  cd rebellion/
+  265  mv millemium_falcon star_wars/empire/death_star
+  266  mv millemium_falcon /..
+  267  ls
+  268  mv millemium_falcon 
+  269  mv -f millemium_falcon star_wars/empire/death_star
+  270  cd  ..
+  271  ls
+  272  mv rebellion/millemium_falcon empire/death_star
+  273  git status
+  274  git add .
+  275  git commit -m "Finished HW A2"
+  276  git push origin main
+  277  ls
+  278  cd empire/
+  279  ls
+  280  cd death_star/\
+  281  cd death_star/
+  282  mv millemium_falcon/* 
+  283  mv millemium_falcon/* star_wars/empire/death_star
+  284  cd ..
+  285  ls
+  286  mv death_star/millemium_falcon/* death_star
+  287  ls
+  288  cd death_star
+  289  rm -f obi_wan.txt
+  290  ls
+  291  mv chewbacca.txt millemium_falcon && mv han_solo.txt millemium_falcon && mv luke_skywalker.txt millemium_falcon && mv princess_leia.txt millemium_falcon
+  292  cd ..
+  293  sls
+  294  ls
+  295  cd ..
+  296  sls
+  297  ls
+  298  mv empire/death_star/millemium_falcon rebellion
+  299  mv empire/death_star/darth_vader.txt empire
+  300  rm -rf empire/death_star
+  301  cd ..
+  302  ls
+  303  git add
+  304  git add .
+  305  git commit -m "Finished HW A3"
+  306  git push -u origin main
+  307  git status
